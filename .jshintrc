@@ -1,5 +1,4 @@
 {
-	"globalstrict": true,
 	"globals": {
 		"ionic": false,
 		"angular": false,
