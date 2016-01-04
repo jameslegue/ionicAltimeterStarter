@@ -1,5 +1,5 @@
 # Ionic Altimeter Starter
-Example Ionic Starter app with cordova-plugin-altimeter integration.
+Example Ionic Starter app with cordova-plugin-altimeter integration. [![bitHound Overall Score](https://www.bithound.io/github/jameslegue/ionicAltimeterStarter/badges/score.svg)](https://www.bithound.io/github/jameslegue/ionicAltimeterStarter)
 
 
 ## Altimeter Plugin for Cordova
