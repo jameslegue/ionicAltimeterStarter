@@ -1,0 +1,24 @@
+{
+	"globalstrict": true,
+	"globals": {
+		"ionic": false,
+		"angular": false,
+		"cordova": false,
+		"StatusBar": false,
+		"window": false,
+		"console": false,
+		"setInterval": false,
+		"clearInterval": false,
+		"describe": false,
+		"beforeEach": false,
+		"module": false,
+		"inject": false,
+		"it": false,
+		"expect": false,
+		"require": false,
+		"process": false,
+		"document": false,
+		"navigator": false,
+		"altimeter": false
+	}
+}
