@@ -1,0 +1,8 @@
+{
+	"ignore": [
+		"**/gulpfile.js",
+		"**hooks/**",
+		"**www/lib/**",
+		"**plugins/**"
+	]
+}
