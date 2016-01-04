@@ -1,0 +1,23 @@
+<ion-view view-title="Altimeter">
+	<ion-content>
+		<div class="list card">
+			<div>
+				<div class="item item-divider">
+					<h2>Altimeter</h2>
+				</div>
+				<div class="item item-text-wrap">
+					<p>isAltimeterAvailable? {{altimeterAvailable}}</p>					
+					<p>Altimeter Error: {{altimeterError}}</p>					
+					<p>Altimeter Pressure: {{altimeterData.pressure}}</p>					
+					<p>Altimeter Relative Altitude: {{altimeterData.relativeAltitude}}</p>	
+					<button class="button button-stable button-block button-pulse" ng-click="startAltimeterUpdates()">
+					  Start Altimeter
+					</button>				
+					<button class="button button-stable button-block button-pulse" ng-click="stopAltimeterUpdates()">
+					  Stop Altimeter
+					</button>				
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
