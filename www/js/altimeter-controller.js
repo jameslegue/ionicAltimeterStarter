@@ -9,16 +9,12 @@ angular.module('AltimeterCtrl', [])
   $scope.altimeterError = 'empty';
   $scope.altimeterData = 'empty';
 
-  $scope.stopUpdates = function() {
-    stopAltimeterUpdates();
-  };
-
   // start altimeter updates, first check if the altimeter is available
   $scope.startAltimeterUpdates = function() {
     // check if an altimeter if available on the platform
     // calls the altimeterAvailable function to evaluate starting alimeter updates
     AltimeterService.isAltimeterAvailable(altimeterAvailable, error);
-  }
+  };
 
   // stop polling for altimeter updates
   $scope.stopAltimeterUpdates = function() {
@@ -27,7 +23,7 @@ angular.module('AltimeterCtrl', [])
         altimeterData(''); // set data to blank when updates are stopped
       }
     }, error);
-  }
+  };
 
   // updates altimeter data in the view
   function altimeterData(data) {
